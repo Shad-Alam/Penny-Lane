@@ -1,0 +1,72 @@
+/* heading part */
+.heading-style{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: rgb(93, 42, 93);
+    margin-top: 37px;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+/* Income, Expenses part */
+main{
+    background-color: #f6e6e6;
+}
+
+.main-style{
+    padding-bottom: 45px;
+}
+
+
+.text-style1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(97, 22, 22);
+}
+
+.text-style2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(97, 22, 22);
+}
+
+.input-style1{
+    border: 2px solid white;
+    background-color: #DCDCDC;
+    border-radius: 2px;
+    font-size: 22px;
+}
+
+.input-style2{
+    width: 129px;
+    border: 2px solid white;
+    background-color: #DCDCDC;
+    border-radius: 2px;
+    font-size: 22px;
+}
+
+.button-style{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 3px 25px;
+    background-color: #7F00FF;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+
+.wrap-style{
+    word-wrap: normal;
+}

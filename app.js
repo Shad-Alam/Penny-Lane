@@ -5,7 +5,7 @@ function errorMessage(message){
         icon: 'error',
         title: 'Oops...',
         text: message,
-    });
+    }); 
 }
 // Confirm Message
 function confirmMessage(){
