@@ -1,4 +1,3 @@
-
 //  Error Message 
 function errorMessage(message){
     Swal.fire({
@@ -7,6 +6,7 @@ function errorMessage(message){
         text: message,
     }); 
 }
+
 // Confirm Message
 function confirmMessage(){
     Swal.fire(
@@ -19,9 +19,7 @@ function confirmMessage(){
 // Get value from textfield
 function getValue(id){
     let value = document.getElementById(id).value;
-
     const check = !isNaN(value);
-
     if(value.length===0){
         errorMessage("Please fill out "+id.toUpperCase()+" field.");
         return -1;
@@ -52,8 +50,6 @@ document.getElementById('calculate').addEventListener('click', function(){
                         errorMessage("Your total Income is less than Expenses")
                     }else{
                         confirmMessage();
-                        // total-expenses
-                        // balance
                         var expenses = document.getElementById('total-expenses');
                         expenses.innerText = totalExpenses;
                         var balance = document.getElementById('balance');
